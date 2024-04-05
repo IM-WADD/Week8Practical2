@@ -69,7 +69,7 @@ Once you have code to get the next Bank Holiday, check that it identifies the sa
 
 The next step is to calculate how many days there are until the next Bank Holiday. Working with dates is a common task in web development but also tricky due to the many ways to format a date, time zones, varying days in a month, and leap years.
 
-The approach for calculating days between two dates, `firstDate` and laterDate, is as follows:
+The approach for calculating days between two dates, `firstDate` and `laterDate`, is as follows:
 1. Get the milliseconds between two dates using the `Date.getTime()` method:
 ```
 const msBetween = laterDate.getTime() – firstDate.getTime();
